@@ -22,12 +22,13 @@ class TestGuessN(unittest.TestCase):
           self.assertEqual(main(10, 50, 100, var='slow'), 'Number is out of range')
 
      def test7(self):
-          self.assertEqual(main('lol', 1, 10), 'Enter a number')
+          self.assertEqual(main('lol', 1, 10), 'Enter an integer')
 
      def test8(self):
-          self.assertEqual(main('lol', 1, 10, 'slow'), 'Enter a number')
+          self.assertEqual(main('lol', 1, 10, 'slow'), 'Enter an integer')
 
      
 
 if __name__ == '__main__':
+
      unittest.main()
