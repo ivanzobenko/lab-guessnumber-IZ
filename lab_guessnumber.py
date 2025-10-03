@@ -80,5 +80,3 @@ def main(target: int, low: int, high: int, var: str ="bin"):
         return guess_slow(target, low, high)
     else:
         return 'Wrong function'
-
-print(main(7, 1, 10, 'slow'))
